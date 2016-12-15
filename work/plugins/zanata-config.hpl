@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: zanata-config
+Long-Name: Zanata Configuration Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/zanata-config
+Plugin-Version: 0.1
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: 
+Libraries: /home/yshao/zanata-jenkins/zanata-config/src/main/resources
+ ,/home/yshao/zanata-jenkins/zanata-config/target/classes
+Resource-Path: /home/yshao/zanata-jenkins/zanata-config/src/main/webapp
+

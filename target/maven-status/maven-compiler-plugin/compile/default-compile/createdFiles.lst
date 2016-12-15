@@ -1,0 +1,5 @@
+org/jenkinsci/plugins/zanataconfig/HelloWorldBuilder$DescriptorImpl.class
+org/jenkinsci/plugins/zanataconfig/HelloWorldBuilder/DescriptorImpl/doCheckName.stapler
+org/jenkinsci/plugins/zanataconfig/HelloWorldBuilder.class
+org/jenkinsci/plugins/zanataconfig/HelloWorldBuilder.stapler
+META-INF/annotations/hudson.Extension

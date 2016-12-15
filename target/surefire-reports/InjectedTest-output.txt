@@ -1,0 +1,45 @@
+Dec 15, 2016 1:11:18 PM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @249ms
+Picking up existing exploded jenkins.war at /home/yshao/zanata-jenkins/zanata-config/target/jenkins-for-test
+Dec 15, 2016 1:11:19 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Dec 15, 2016 1:11:19 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Dec 15, 2016 1:11:19 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Dec 15, 2016 1:11:19 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@4c2cc639{/,file:/home/yshao/zanata-jenkins/zanata-config/target/jenkins-for-test/,AVAILABLE}{/home/yshao/zanata-jenkins/zanata-config/target/jenkins-for-test}
+Dec 15, 2016 1:11:19 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@2e554a3b{HTTP/1.1}{localhost:35677}
+Dec 15, 2016 1:11:19 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @1054ms
+Dec 15, 2016 1:11:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Dec 15, 2016 1:11:24 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Dec 15, 2016 1:11:24 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Dec 15, 2016 1:11:24 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Dec 15, 2016 1:11:24 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Dec 15, 2016 1:11:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Dec 15, 2016 1:11:27 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 34977
+Dec 15, 2016 1:11:27 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Dec 15, 2016 1:11:27 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Dec 15, 2016 1:11:27 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@4a9cc6cb{/,null,AVAILABLE}
+Dec 15, 2016 1:11:27 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@1950e8a6{HTTP/1.1}{0.0.0.0:38039}
+Dec 15, 2016 1:11:27 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @8896ms
+Dec 15, 2016 1:11:28 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@2e554a3b{HTTP/1.1}{localhost:0}
+Dec 15, 2016 1:11:28 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@4c2cc639{/,file:/home/yshao/zanata-jenkins/zanata-config/target/jenkins-for-test/,UNAVAILABLE}{/home/yshao/zanata-jenkins/zanata-config/target/jenkins-for-test}
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
